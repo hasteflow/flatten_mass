@@ -1,0 +1,9 @@
+# ignore all hidden files by default
+.*
+
+# do not ignore git specific files
+!.gitkeep
+!.gitignore
+
+# python 3 cache files ignored
+__pycache__
